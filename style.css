@@ -160,17 +160,17 @@ img.grids{
   background-color: white;
   border: 1px solid white;
   padding-top: 0;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 h3{
 	font-size: 25px;
+	padding-top:20px;
+	padding-left: 20px;
 	font-family: verdana;
-	padding: 20px;
 	font-family: sans-serif;
-}
-/*////////////////////////////////banner///////////////////////////*/
+}/*////////////////////////////////banner///////////////////////////*/
 .banner {
 	width: 100%;
   display: grid;
