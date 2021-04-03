@@ -47,27 +47,27 @@ function showSlides(n) {
 function openfile() {
 	let x=document.getElementById('search').value;
 	if (x === "chudidar" || x === "lahanga" || x === "sarees") {
-		window.open("/women.html");
+		window.open("women.html");
 	}
 	if (x === "t shirt" || x === "jeans" || x === "shirt") {
-		window.open("/men.html");
+		window.open("men.html");
 	}
 	if (x === "kid clothes" || x === "toys" || x === "kids toys") {
-		window.open("/kids.html");
+		window.open("kids.html");
 	}
 	if (x === "iphone" || x === "vivo" || x === "galaxy") {
-		window.open("/mobile.html");
+		window.open("mobile.html");
 	}
 	if (x === "tawa" || x === "grinder" || x === "frige") {
-		window.open("/kitchen.html");
+		window.open("kitchen.html");
 	}
 	if (x === "face wash" || x === "body losion" || x === "aleo vera cream") {
-		window.open("/beauty.html");
+		window.open("beauty.html");
 	}
 	if (x === "wall hanging" || x === "hexagon shelf" || x === "wall sticker") {
-		window.open("/decorate.html");
+		window.open("decorate.html");
 	}
 	if (x === "bed cover" || x === "beds" || x === "sofa") {
-		window.open("/house.html");
+		window.open("house.html");
 	}
 }
