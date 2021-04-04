@@ -301,6 +301,16 @@ td{
 	color: white;
 	font-size: 13px;
 }
+.ending{
+	background-color: #ddd;
+	text-align: center;
+	padding: 30px;
+}
+.words{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: darkgrey;
+}
 /*////////////////////////////////////media quaries...../////////////////////////////////////////*/
 @media (max-width: 1245px) {
   nav{
