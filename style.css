@@ -183,6 +183,29 @@ h3{
 	width: 410px;
 	height: 250px;
 }
+/*//////////////////////////////////////////////////////////////////////////////////changes////////////////////////////////////*/
+.last-grid {
+	width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#ddd;
+  padding: 10px;
+}
+.lastb1{
+	margin: 10px;
+	width: 410px;
+	height: 250px;
+}
+.lastb2{
+	margin: 10px;
+	width: 410px;
+	height: 250px;
+}
+.lastb3{
+	margin: 10px;
+	width: 410px;
+	height: 250px;
+}
 /*/////////////////////////////////////////////this one is for slide show///////////////*/
 /* Slideshow container */
 .slideshow-container {
@@ -371,6 +394,9 @@ td{
   }
 }
 @media (max-width: 1028px){/*this one is for ipad pro*/
+	.last-grid{
+	 overflow:scroll;
+	}
     .banner{
     	display: none;
     }
@@ -427,6 +453,24 @@ td{
 	}
 }
 @media (max-width: 415px){/*this one is  for  pixel*/
+	.last-grid {
+	width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    background-color:#ddd;
+    padding: 10px;
+    }
+	.lastb1{
+	margin: 20px;
+	width: 90%;
+	height: 180px;
+    }
+    .lastb2{
+	  display: none;
+    }
+    .lastb3{
+    	display: none;
+    }
 	.slide1{
 		background-image:url("discount slide small.jpg"); 
 	}
