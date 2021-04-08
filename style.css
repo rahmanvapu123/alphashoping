@@ -240,7 +240,7 @@ h3{
   color: #888;
   font-weight: bold;
   font-size: 20px;
-  background-color: #ddd;
+  background-color: transparent;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
